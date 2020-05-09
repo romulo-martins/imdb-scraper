@@ -14,19 +14,20 @@ To get a unique tile by the imdb id
 ```Javascript
 const getMovie = require('./lib/getMovie')
 
-getMovie('tt0059968')
+getMovie('tt0096895')
 ```
 
 Output from getMovie
 ```Javascript
 {
-  title: 'Batman e Robin',
-  originalTile: 'Batman',
-  description: 'The Caped Crusader and his young ward battle evildoers in Gotham City.',
+  title: 'Batman (1989)',
+  originalTile: '',
+  description: 'The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.',
   rating: '7.5/10',
-  year: 'Not found',
-  poster: 'https://m.media-amazon.com/images/M/MV5BMTkzNDY5NTg5MF5BMl5BanBnXkFtZTgwNzI4NzM1MjE@._V1_UY268_CR13,0,182,268_AL_.jpg',
-  imdbId: 'tt0059968'
+  year: '(1989)',
+  poster: 'https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_UX182_CR0,0,182,268_AL_.jpg',
+  genres: [ 'Action', 'Adventure' ],
+  imdbID: 'tt0096895'
 }
 ```
 
@@ -39,23 +40,25 @@ searchMovies('star wars')
 Example of output from search all star wars movies
 ```Javascript
 {
-  title: 'Star Wars, Episódio II: Ataque dos Clones',
-  originalTile: 'Star Wars: Episode II - Attack of the Clones',
-  description: 'Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.',
-  rating: '6.5/10',
-  year: '(2002)',
-  poster: 'https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg',
-  imdbId: 'tt0121765'
+  title: 'That movie is not Star wars. Episode VII. Last jedi (2017)',
+  originalTile: '',
+  description: "Darth Vader travels in Austria. He flues on plane. He goes on Vienna's tram. All movie viewer looks all that looks Vader. And this movie is not Star wars. Episode VII. Last Jedi.",
+  rating: '6.4/10',
+  year: '(2017)',
+  poster: 'https://m.media-amazon.com/images/M/MV5BZTU4MTQ0MTMtZTk1YS00NDczLTgyMjUtNmUxNDBmNmIwMjA3XkEyXkFqcGdeQXVyNDcwNDE0Nzk@._V1_UX182_CR0,0,182,268_AL_.jpg',
+  genres: [ 'Drama' ],
+  imdbID: 'tt7810706'
 },
 {
-  title: 'Untitled Star Wars Trilogy: Episode III',
-  originalTile: 'Not Found',
-  description: 'Plot unknown.',
-  rating: 'Not found',
-  year: 'Not found',
-  poster: 'Not found',
-  imdbId: 'tt7618100'
-},
+  title: 'Star Wars, Episódio VI: O Retorno do Jedi (1983)',
+  originalTile: 'Star Wars: Episode VI - Return of the Jedi',
+  description: "After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor's trap.",
+  rating: '8.3/10',
+  year: '(1983)',
+  poster: 'https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg',
+  genres: [ 'Action', 'Adventure', 'Fantasy', 'Sci-Fi' ],
+  imdbID: 'tt0086190'
+}
 ...
 ```
 
