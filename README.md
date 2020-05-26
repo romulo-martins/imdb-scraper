@@ -15,6 +15,7 @@ To get a unique tile by the imdb id
 const getMovie = require('./lib/getMovie')
 
 getMovie('tt0096895')
+    .then(response => console.log(response))
 ```
 
 Output from getMovie
@@ -35,7 +36,8 @@ To search all star wars movies
 ```Javascript
 const { searchMovies } = require('./lib/searchTitle');
 
-searchMovies('star wars')
+searchMovies('star wars episode')
+    .then(response => console.log(response))
 ```
 Example of output from search all star wars movies
 ```Javascript
