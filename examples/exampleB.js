@@ -1,6 +1,4 @@
-const { searchMovies } = require('../lib/searchTitle');
+const { searchMovies } = require('imdb-scraper');
 
-searchMovies('star wars episode')
-    .then(response =>
-        console.log(response)
-    )
+searchMovies('Back to the Future')
+    .then(response => console.log(response))

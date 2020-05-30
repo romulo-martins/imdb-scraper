@@ -1,15 +1,18 @@
 {
-  "name": "imdb-wrapper",
+  "name": "imdb-scraper",
   "version": "1.0.0",
-  "description": "\"A wrapper for search movies to imdb website\"",
+  "description": "A scraper to search movies and series from imdb website",
   "main": "index.js",
   "scripts": {
-    "exampleA": "node examples/exA.js",
-    "exampleB": "node examples/exB.js",
     "lint": "eslint ."
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "imdb",
+    "scraper",
+    "node"
+  ],
+  "author": "Romulo Martins da Silva",
+  "license": "MIT",
   "devDependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",

@@ -1,6 +1,4 @@
-const getMovie = require('../lib/getMovie')
+const { getMovie } = require('imdb-scraper')
 
 getMovie('tt0096895')
-    .then(response => {
-        console.log(response)
-    })
+    .then(response => console.log(response))
