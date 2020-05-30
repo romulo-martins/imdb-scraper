@@ -1,6 +1,6 @@
 {
   "name": "imdb-scraper-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A scraper to search movies and series from imdb website",
   "main": "index.js",
   "scripts": {
