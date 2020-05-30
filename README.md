@@ -3,16 +3,16 @@ A scraper for the IMDB website, to extract information of movies and tv series
 
 ## Install
 
-To install the project dependencies you can run the following command
+To install the project you can run the following command
 ```Javascript
-npm install
+npm install imdb-scraper-js
 ```
 
 ## Usage
 
 To get a unique tile by the imdb id
 ```Javascript
-const getMovie = require('./lib/getMovie')
+const { getMovie } = require('imdb-scraper')
 
 getMovie('tt0096895')
     .then(response => console.log(response))
@@ -34,7 +34,7 @@ Output from getMovie
 
 To search all star wars movies
 ```Javascript
-const { searchMovies } = require('./lib/searchTitle');
+const { searchMovies } = require('imdb-scraper');
 
 searchMovies('star wars episode')
     .then(response => console.log(response))
