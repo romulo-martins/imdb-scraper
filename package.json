@@ -14,7 +14,7 @@
   "author": "Romulo Martins da Silva",
   "license": "MIT",
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.3",
     "eslint": "^7.0.0",
     "ora": "^4.0.4"
